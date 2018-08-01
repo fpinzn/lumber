@@ -33,6 +33,7 @@ program
     'dbUser',
     'dbPassword',
     'dbStorage',
+    'ssl'
   ]);
 
   const db = await new DB().connect(config);
